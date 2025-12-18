@@ -1,0 +1,43 @@
+is_global = true
+build_property.AvaloniaNameGeneratorIsEnabled = true
+build_property.AvaloniaNameGeneratorBehavior = InitializeComponent
+build_property.AvaloniaNameGeneratorDefaultFieldModifier = internal
+build_property.AvaloniaNameGeneratorFilterByPath = *
+build_property.AvaloniaNameGeneratorFilterByNamespace = *
+build_property.AvaloniaNameGeneratorViewFileNamingStrategy = NamespaceAndClassName
+build_property.AvaloniaNameGeneratorAttachDevTools = true
+build_property.TargetFramework = net9.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Hotel
+build_property.ProjectDir = H:\Estudios\INGENIERÍA INFORMÁTICA\(4) CUARTO\1º Cuatrimestre\Desenvolvimiento e Integración de Aplicaciones\Hotel\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.EffectiveAnalysisLevelStyle = 9.0
+build_property.EnableCodeStyleSeverity = 
+
+[H:/Estudios/INGENIERÍA INFORMÁTICA/(4) CUARTO/1º Cuatrimestre/Desenvolvimiento e Integración de Aplicaciones/Hotel/View/AddBookingWindow.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[H:/Estudios/INGENIERÍA INFORMÁTICA/(4) CUARTO/1º Cuatrimestre/Desenvolvimiento e Integración de Aplicaciones/Hotel/View/AddClientWindow.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[H:/Estudios/INGENIERÍA INFORMÁTICA/(4) CUARTO/1º Cuatrimestre/Desenvolvimiento e Integración de Aplicaciones/Hotel/View/AddRoomWindow.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[H:/Estudios/INGENIERÍA INFORMÁTICA/(4) CUARTO/1º Cuatrimestre/Desenvolvimiento e Integración de Aplicaciones/Hotel/View/App.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[H:/Estudios/INGENIERÍA INFORMÁTICA/(4) CUARTO/1º Cuatrimestre/Desenvolvimiento e Integración de Aplicaciones/Hotel/View/GraphWindow.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[H:/Estudios/INGENIERÍA INFORMÁTICA/(4) CUARTO/1º Cuatrimestre/Desenvolvimiento e Integración de Aplicaciones/Hotel/View/MainWindow.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[H:/Estudios/INGENIERÍA INFORMÁTICA/(4) CUARTO/1º Cuatrimestre/Desenvolvimiento e Integración de Aplicaciones/Hotel/View/SearchWindow.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml

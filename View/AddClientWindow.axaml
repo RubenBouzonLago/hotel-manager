@@ -1,0 +1,50 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:core="using:TRABAJO_GRUPAL_AVALONIA.Core"
+        x:Class="TRABAJO_GRUPAL_AVALONIA.View.AddClientWindow">
+    <Grid ColumnDefinitions="Auto, Auto">
+        <StackPanel Grid.Column="0" Margin="20" Spacing="10">
+            <TextBlock Text="Nuevo Cliente" FontSize="20" FontWeight="Bold"/>
+
+            <TextBlock Text="DNI:"/>
+            <TextBox Name="TxtDni"/>
+
+            <TextBlock Text="Nombre Completo:"/>
+            <TextBox Name="TxtNombre"/>
+
+            <TextBlock Text="Teléfono:"/>
+            <TextBox Name="TxtTelefono"/>
+            
+            <TextBlock Text="Email:"/>
+            <TextBox Name="TxtEmail"/>
+
+            <TextBlock Text="Dirección Postal:"/>
+            <TextBox Name="TxtDireccion"/>
+
+            <TextBlock Name="TxtError" Foreground="Red" TextWrapping="Wrap" Margin="0,10,0,0"/>
+
+            <StackPanel Orientation="Horizontal" Spacing="10" Margin="0,10,0,0">
+                <Button Name="BtnGuardar" Content="Guardar"/>
+                <Button Name="BtnNuevo" Content="Nuevo / Limpiar"/>
+            </StackPanel>
+        </StackPanel>
+
+        <StackPanel Grid.Column="1" Margin="20" Spacing="10">
+            <TextBlock Text="Clientes Registrados" FontSize="20" FontWeight="Bold"/>
+            <ListBox Name="LstClientes" Height="350">
+                <ListBox.ItemTemplate>
+                    <DataTemplate x:DataType="core:Cliente">
+                        <StackPanel>
+                            <TextBlock Text="{Binding Nombre}" FontWeight="Bold"/>
+                            <TextBlock Text="{Binding DNI}" FontSize="12"/>
+                        </StackPanel>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+            <StackPanel Orientation="Horizontal" Spacing="10">
+                <Button Name="BtnEditar" Content="Editar Seleccionado"/>
+                <Button Name="BtnEliminar" Content="Eliminar Seleccionado" Background="#FFCCCC"/>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</UserControl>
