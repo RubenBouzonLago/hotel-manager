@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfCliente xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Cliente>
+    <DNI>60592735T</DNI>
+    <Nombre>Juan Rodriguez</Nombre>
+    <Telefono>674475818</Telefono>
+    <Email>juan.rodriguez@email.com</Email>
+    <Direccion>Calle 75</Direccion>
+  </Cliente>
+  <Cliente>
+    <DNI>33914622C</DNI>
+    <Nombre>Maria Jimenez</Nombre>
+    <Telefono>662191583</Telefono>
+    <Email>maria.jimenez@email.com</Email>
+    <Direccion>Calle 3</Direccion>
+  </Cliente>
+  <Cliente>
+    <DNI>15982681Z</DNI>
+    <Nombre>Pedro Ruiz</Nombre>
+    <Telefono>643556326</Telefono>
+    <Email>pedro.ruiz@email.com</Email>
+    <Direccion>Calle 27</Direccion>
+  </Cliente>
+  <Cliente>
+    <DNI>64882387E</DNI>
+    <Nombre>Ana Gomez</Nombre>
+    <Telefono>691852593</Telefono>
+    <Email>ana.gomez@email.com</Email>
+    <Direccion>Calle 97</Direccion>
+  </Cliente>
+  <Cliente>
+    <DNI>86512666S</DNI>
+    <Nombre>Luis Gomez</Nombre>
+    <Telefono>640512091</Telefono>
+    <Email>luis.gomez@email.com</Email>
+    <Direccion>Calle 42</Direccion>
+  </Cliente>
+  <Cliente>
+    <DNI>30541690T</DNI>
+    <Nombre>Carmen Martinez</Nombre>
+    <Telefono>633921261</Telefono>
+    <Email>carmen.martinez@email.com</Email>
+    <Direccion>Calle 56</Direccion>
+  </Cliente>
+  <Cliente>
+    <DNI>34843768Y</DNI>
+    <Nombre>Antonio Gomez</Nombre>
+    <Telefono>626353092</Telefono>
+    <Email>antonio.gomez@email.com</Email>
+    <Direccion>Calle 39</Direccion>
+  </Cliente>
+  <Cliente>
+    <DNI>75512475C</DNI>
+    <Nombre>Isabel Martin</Nombre>
+    <Telefono>629127838</Telefono>
+    <Email>isabel.martin@email.com</Email>
+    <Direccion>Calle 45</Direccion>
+  </Cliente>
+  <Cliente>
+    <DNI>43580801S</DNI>
+    <Nombre>Jose Martinez</Nombre>
+    <Telefono>633997517</Telefono>
+    <Email>jose.martinez@email.com</Email>
+    <Direccion>Calle 9</Direccion>
+  </Cliente>
+  <Cliente>
+    <DNI>23521447J</DNI>
+    <Nombre>Laura Garcia</Nombre>
+    <Telefono>673844585</Telefono>
+    <Email>laura.garcia@email.com</Email>
+    <Direccion>Calle 34</Direccion>
+  </Cliente>
+  <Cliente>
+    <DNI>61575906K</DNI>
+    <Nombre>Manuel Garcia</Nombre>
+    <Telefono>641306246</Telefono>
+    <Email>manuel.garcia@email.com</Email>
+    <Direccion>Calle 36</Direccion>
+  </Cliente>
+  <Cliente>
+    <DNI>45421730Z</DNI>
+    <Nombre>Marta Gomez</Nombre>
+    <Telefono>673666759</Telefono>
+    <Email>marta.gomez@email.com</Email>
+    <Direccion>Calle 14</Direccion>
+  </Cliente>
+  <Cliente>
+    <DNI>30910637S</DNI>
+    <Nombre>David Sanchez</Nombre>
+    <Telefono>681015373</Telefono>
+    <Email>david.sanchez@email.com</Email>
+    <Direccion>Calle 84</Direccion>
+  </Cliente>
+  <Cliente>
+    <DNI>26407692T</DNI>
+    <Nombre>Elena Lopez</Nombre>
+    <Telefono>677352062</Telefono>
+    <Email>elena.lopez@email.com</Email>
+    <Direccion>Calle 10</Direccion>
+  </Cliente>
+  <Cliente>
+    <DNI>99775497Z</DNI>
+    <Nombre>Francisco Jimenez</Nombre>
+    <Telefono>610096049</Telefono>
+    <Email>francisco.jimenez@email.com</Email>
+    <Direccion>Calle 18</Direccion>
+  </Cliente>
+</ArrayOfCliente>

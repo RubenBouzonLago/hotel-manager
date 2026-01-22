@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfCliente xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Cliente>
+    <DNI>12345678A</DNI>
+    <Nombre>Juan Pérez</Nombre>
+    <Telefono>600111222</Telefono>
+    <Email>juan.perez@email.com</Email>
+    <Direccion>Calle Mayor 1, Madrid</Direccion>
+  </Cliente>
+  <Cliente>
+    <DNI>87654321B</DNI>
+    <Nombre>María García</Nombre>
+    <Telefono>600333444</Telefono>
+    <Email>maria.garcia@email.com</Email>
+    <Direccion>Av. Diagonal 20, Barcelona</Direccion>
+  </Cliente>
+  <Cliente>
+    <DNI>11223344C</DNI>
+    <Nombre>Carlos López</Nombre>
+    <Telefono>600555666</Telefono>
+    <Email>carlos.lopez@email.com</Email>
+    <Direccion>Plaza España 5, Sevilla</Direccion>
+  </Cliente>
+  <Cliente>
+    <DNI>55667788D</DNI>
+    <Nombre>Ana Martínez</Nombre>
+    <Telefono>600777888</Telefono>
+    <Email>ana.martinez@email.com</Email>
+    <Direccion>Calle Real 10, Valencia</Direccion>
+  </Cliente>
+  <Cliente>
+    <DNI>99887766E</DNI>
+    <Nombre>Luis Rodríguez</Nombre>
+    <Telefono>600999000</Telefono>
+    <Email>luis.rodriguez@email.com</Email>
+    <Direccion>Gran Vía 30, Bilbao</Direccion>
+  </Cliente>
+  <Cliente>
+    <DNI>44332211F</DNI>
+    <Nombre>Elena Sánchez</Nombre>
+    <Telefono>600123123</Telefono>
+    <Email>elena.sanchez@email.com</Email>
+    <Direccion>Paseo Marítimo 4, Málaga</Direccion>
+  </Cliente>
+  <Cliente>
+    <DNI>66778899G</DNI>
+    <Nombre>Pedro Gómez</Nombre>
+    <Telefono>600456456</Telefono>
+    <Email>pedro.gomez@email.com</Email>
+    <Direccion>Calle Sol 8, Alicante</Direccion>
+  </Cliente>
+  <Cliente>
+    <DNI>22334455H</DNI>
+    <Nombre>Sofía Ruiz</Nombre>
+    <Telefono>600789789</Telefono>
+    <Email>sofia.ruiz@email.com</Email>
+    <Direccion>Calle Luna 12, Zaragoza</Direccion>
+  </Cliente>
+  <Cliente>
+    <DNI>99001122I</DNI>
+    <Nombre>Miguel Hernández</Nombre>
+    <Telefono>600321321</Telefono>
+    <Email>miguel.hernandez@email.com</Email>
+    <Direccion>Av. Libertad 15, Murcia</Direccion>
+  </Cliente>
+  <Cliente>
+    <DNI>33445566J</DNI>
+    <Nombre>Lucía Díaz</Nombre>
+    <Telefono>600654654</Telefono>
+    <Email>lucia.diaz@email.com</Email>
+    <Direccion>Calle Nueva 3, Palma</Direccion>
+  </Cliente>
+  <Cliente>
+    <DNI>77889900K</DNI>
+    <Nombre>David Moreno</Nombre>
+    <Telefono>600987987</Telefono>
+    <Email>david.moreno@email.com</Email>
+    <Direccion>Plaza Mayor 7, Valladolid</Direccion>
+  </Cliente>
+  <Cliente>
+    <DNI>11002299L</DNI>
+    <Nombre>Carmen Álvarez</Nombre>
+    <Telefono>600147147</Telefono>
+    <Email>carmen.alvarez@email.com</Email>
+    <Direccion>Calle Alta 22, Santander</Direccion>
+  </Cliente>
+  <Cliente>
+    <DNI>55443322M</DNI>
+    <Nombre>Javier Romero</Nombre>
+    <Telefono>600258258</Telefono>
+    <Email>javier.romero@email.com</Email>
+    <Direccion>Av. Constitución 9, Toledo</Direccion>
+  </Cliente>
+  <Cliente>
+    <DNI>88990011N</DNI>
+    <Nombre>Paula Torres</Nombre>
+    <Telefono>600369369</Telefono>
+    <Email>paula.torres@email.com</Email>
+    <Direccion>Calle Baja 6, Salamanca</Direccion>
+  </Cliente>
+  <Cliente>
+    <DNI>66554433O</DNI>
+    <Nombre>Alejandro Navarro</Nombre>
+    <Telefono>600741741</Telefono>
+    <Email>alejandro.navarro@email.com</Email>
+    <Direccion>Paseo del Río 11, Córdoba</Direccion>
+  </Cliente>
+</ArrayOfCliente>

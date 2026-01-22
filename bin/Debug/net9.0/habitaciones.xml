@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfHabitacion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Habitacion>
+    <Numero>101</Numero>
+    <Tipo>Doble</Tipo>
+    <UltimaRenovacion>0001-01-01T00:00:00</UltimaRenovacion>
+    <UltimaReserva>2026-08-23T00:00:00</UltimaReserva>
+    <Comodidades>
+      <Comodidad>
+        <Nombre>Caja Fuerte</Nombre>
+        <Descripcion>Seguridad para objetos de valor</Descripcion>
+      </Comodidad>
+      <Comodidad>
+        <Nombre>Baño</Nombre>
+        <Descripcion>Baño privado completo</Descripcion>
+      </Comodidad>
+      <Comodidad>
+        <Nombre>Jacuzzi</Nombre>
+        <Descripcion>Baño con hidromasaje</Descripcion>
+      </Comodidad>
+    </Comodidades>
+  </Habitacion>
+  <Habitacion>
+    <Numero>102</Numero>
+    <Tipo>Individual</Tipo>
+    <UltimaRenovacion>0001-01-01T00:00:00</UltimaRenovacion>
+    <UltimaReserva>2026-05-12T00:00:00</UltimaReserva>
+    <Comodidades>
+      <Comodidad>
+        <Nombre>Mini-bar</Nombre>
+        <Descripcion>Bebidas y snacks</Descripcion>
+      </Comodidad>
+      <Comodidad>
+        <Nombre>Aire Acondicionado</Nombre>
+        <Descripcion>Control de temperatura</Descripcion>
+      </Comodidad>
+    </Comodidades>
+  </Habitacion>
+  <Habitacion>
+    <Numero>103</Numero>
+    <Tipo>Matrimonial</Tipo>
+    <UltimaRenovacion>0001-01-01T00:00:00</UltimaRenovacion>
+    <UltimaReserva>2026-01-22T00:00:00</UltimaReserva>
+    <Comodidades>
+      <Comodidad>
+        <Nombre>Baño</Nombre>
+        <Descripcion>Baño privado completo</Descripcion>
+      </Comodidad>
+    </Comodidades>
+  </Habitacion>
+  <Habitacion>
+    <Numero>201</Numero>
+    <Tipo>Matrimonial</Tipo>
+    <UltimaRenovacion>0001-01-01T00:00:00</UltimaRenovacion>
+    <UltimaReserva>2026-06-23T00:00:00</UltimaReserva>
+    <Comodidades>
+      <Comodidad>
+        <Nombre>Baño</Nombre>
+        <Descripcion>Baño privado completo</Descripcion>
+      </Comodidad>
+      <Comodidad>
+        <Nombre>Wifi</Nombre>
+        <Descripcion>Internet de alta velocidad</Descripcion>
+      </Comodidad>
+    </Comodidades>
+  </Habitacion>
+  <Habitacion>
+    <Numero>202</Numero>
+    <Tipo>Matrimonial</Tipo>
+    <UltimaRenovacion>0001-01-01T00:00:00</UltimaRenovacion>
+    <UltimaReserva>2026-06-19T00:00:00</UltimaReserva>
+    <Comodidades>
+      <Comodidad>
+        <Nombre>Jacuzzi</Nombre>
+        <Descripcion>Baño con hidromasaje</Descripcion>
+      </Comodidad>
+      <Comodidad>
+        <Nombre>Aire Acondicionado</Nombre>
+        <Descripcion>Control de temperatura</Descripcion>
+      </Comodidad>
+      <Comodidad>
+        <Nombre>Caja Fuerte</Nombre>
+        <Descripcion>Seguridad para objetos de valor</Descripcion>
+      </Comodidad>
+    </Comodidades>
+  </Habitacion>
+  <Habitacion>
+    <Numero>203</Numero>
+    <Tipo>Individual</Tipo>
+    <UltimaRenovacion>0001-01-01T00:00:00</UltimaRenovacion>
+    <UltimaReserva>2026-12-23T00:00:00</UltimaReserva>
+    <Comodidades>
+      <Comodidad>
+        <Nombre>Aire Acondicionado</Nombre>
+        <Descripcion>Control de temperatura</Descripcion>
+      </Comodidad>
+    </Comodidades>
+  </Habitacion>
+  <Habitacion>
+    <Numero>301</Numero>
+    <Tipo>Matrimonial</Tipo>
+    <UltimaRenovacion>0001-01-01T00:00:00</UltimaRenovacion>
+    <UltimaReserva>0001-01-01T00:00:00</UltimaReserva>
+    <Comodidades>
+      <Comodidad>
+        <Nombre>TV</Nombre>
+        <Descripcion>Televisión por cable</Descripcion>
+      </Comodidad>
+      <Comodidad>
+        <Nombre>Cocina</Nombre>
+        <Descripcion>Cocina equipada</Descripcion>
+      </Comodidad>
+    </Comodidades>
+  </Habitacion>
+  <Habitacion>
+    <Numero>302</Numero>
+    <Tipo>Matrimonial</Tipo>
+    <UltimaRenovacion>0001-01-01T00:00:00</UltimaRenovacion>
+    <UltimaReserva>0001-01-01T00:00:00</UltimaReserva>
+    <Comodidades>
+      <Comodidad>
+        <Nombre>Jacuzzi</Nombre>
+        <Descripcion>Baño con hidromasaje</Descripcion>
+      </Comodidad>
+    </Comodidades>
+  </Habitacion>
+  <Habitacion>
+    <Numero>303</Numero>
+    <Tipo>Individual</Tipo>
+    <UltimaRenovacion>0001-01-01T00:00:00</UltimaRenovacion>
+    <UltimaReserva>0001-01-01T00:00:00</UltimaReserva>
+    <Comodidades>
+      <Comodidad>
+        <Nombre>Mini-bar</Nombre>
+        <Descripcion>Bebidas y snacks</Descripcion>
+      </Comodidad>
+      <Comodidad>
+        <Nombre>Baño</Nombre>
+        <Descripcion>Baño privado completo</Descripcion>
+      </Comodidad>
+    </Comodidades>
+  </Habitacion>
+  <Habitacion>
+    <Numero>401</Numero>
+    <Tipo>Individual</Tipo>
+    <UltimaRenovacion>0001-01-01T00:00:00</UltimaRenovacion>
+    <UltimaReserva>2026-11-25T00:00:00</UltimaReserva>
+    <Comodidades>
+      <Comodidad>
+        <Nombre>Aire Acondicionado</Nombre>
+        <Descripcion>Control de temperatura</Descripcion>
+      </Comodidad>
+      <Comodidad>
+        <Nombre>Caja Fuerte</Nombre>
+        <Descripcion>Seguridad para objetos de valor</Descripcion>
+      </Comodidad>
+      <Comodidad>
+        <Nombre>Baño</Nombre>
+        <Descripcion>Baño privado completo</Descripcion>
+      </Comodidad>
+    </Comodidades>
+  </Habitacion>
+  <Habitacion>
+    <Numero>402</Numero>
+    <Tipo>Doble</Tipo>
+    <UltimaRenovacion>0001-01-01T00:00:00</UltimaRenovacion>
+    <UltimaReserva>0001-01-01T00:00:00</UltimaReserva>
+    <Comodidades>
+      <Comodidad>
+        <Nombre>Cocina</Nombre>
+        <Descripcion>Cocina equipada</Descripcion>
+      </Comodidad>
+      <Comodidad>
+        <Nombre>Aire Acondicionado</Nombre>
+        <Descripcion>Control de temperatura</Descripcion>
+      </Comodidad>
+    </Comodidades>
+  </Habitacion>
+  <Habitacion>
+    <Numero>403</Numero>
+    <Tipo>Individual</Tipo>
+    <UltimaRenovacion>0001-01-01T00:00:00</UltimaRenovacion>
+    <UltimaReserva>0001-01-01T00:00:00</UltimaReserva>
+    <Comodidades>
+      <Comodidad>
+        <Nombre>TV</Nombre>
+        <Descripcion>Televisión por cable</Descripcion>
+      </Comodidad>
+      <Comodidad>
+        <Nombre>Wifi</Nombre>
+        <Descripcion>Internet de alta velocidad</Descripcion>
+      </Comodidad>
+      <Comodidad>
+        <Nombre>Mini-bar</Nombre>
+        <Descripcion>Bebidas y snacks</Descripcion>
+      </Comodidad>
+    </Comodidades>
+  </Habitacion>
+  <Habitacion>
+    <Numero>501</Numero>
+    <Tipo>Individual</Tipo>
+    <UltimaRenovacion>0001-01-01T00:00:00</UltimaRenovacion>
+    <UltimaReserva>0001-01-01T00:00:00</UltimaReserva>
+    <Comodidades>
+      <Comodidad>
+        <Nombre>Aire Acondicionado</Nombre>
+        <Descripcion>Control de temperatura</Descripcion>
+      </Comodidad>
+      <Comodidad>
+        <Nombre>Caja Fuerte</Nombre>
+        <Descripcion>Seguridad para objetos de valor</Descripcion>
+      </Comodidad>
+      <Comodidad>
+        <Nombre>Wifi</Nombre>
+        <Descripcion>Internet de alta velocidad</Descripcion>
+      </Comodidad>
+    </Comodidades>
+  </Habitacion>
+  <Habitacion>
+    <Numero>502</Numero>
+    <Tipo>Matrimonial</Tipo>
+    <UltimaRenovacion>0001-01-01T00:00:00</UltimaRenovacion>
+    <UltimaReserva>0001-01-01T00:00:00</UltimaReserva>
+    <Comodidades>
+      <Comodidad>
+        <Nombre>Cocina</Nombre>
+        <Descripcion>Cocina equipada</Descripcion>
+      </Comodidad>
+    </Comodidades>
+  </Habitacion>
+  <Habitacion>
+    <Numero>503</Numero>
+    <Tipo>Doble</Tipo>
+    <UltimaRenovacion>0001-01-01T00:00:00</UltimaRenovacion>
+    <UltimaReserva>2026-09-21T00:00:00</UltimaReserva>
+    <Comodidades>
+      <Comodidad>
+        <Nombre>Baño</Nombre>
+        <Descripcion>Baño privado completo</Descripcion>
+      </Comodidad>
+    </Comodidades>
+  </Habitacion>
+</ArrayOfHabitacion>

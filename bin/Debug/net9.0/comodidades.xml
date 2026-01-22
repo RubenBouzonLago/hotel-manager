@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfComodidad xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Comodidad>
+    <Nombre>Wifi</Nombre>
+    <Descripcion>Internet de alta velocidad</Descripcion>
+  </Comodidad>
+  <Comodidad>
+    <Nombre>Caja Fuerte</Nombre>
+    <Descripcion>Seguridad para objetos de valor</Descripcion>
+  </Comodidad>
+  <Comodidad>
+    <Nombre>Mini-bar</Nombre>
+    <Descripcion>Bebidas y snacks</Descripcion>
+  </Comodidad>
+  <Comodidad>
+    <Nombre>Baño</Nombre>
+    <Descripcion>Baño privado completo</Descripcion>
+  </Comodidad>
+  <Comodidad>
+    <Nombre>Cocina</Nombre>
+    <Descripcion>Cocina equipada</Descripcion>
+  </Comodidad>
+  <Comodidad>
+    <Nombre>TV</Nombre>
+    <Descripcion>Televisión por cable</Descripcion>
+  </Comodidad>
+  <Comodidad>
+    <Nombre>Aire Acondicionado</Nombre>
+    <Descripcion>Control de temperatura</Descripcion>
+  </Comodidad>
+  <Comodidad>
+    <Nombre>Jacuzzi</Nombre>
+    <Descripcion>Baño con hidromasaje</Descripcion>
+  </Comodidad>
+</ArrayOfComodidad>

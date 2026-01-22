@@ -1,0 +1,79 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:core="using:TRABAJO_GRUPAL_AVALONIA.Core"
+        x:Class="TRABAJO_GRUPAL_AVALONIA.View.AddRoomWindow">
+    <Grid ColumnDefinitions="Auto, Auto">
+        <StackPanel Grid.Column="0" Margin="20" Spacing="10">
+            <TextBlock Text="Hotel" FontSize="24" FontWeight="Bold"/>
+            <TextBlock Text="Añadir habitación" FontSize="18" Margin="0,0,0,10"/>
+
+            <TextBlock Text="Número de habitación (pnn):"/>
+            <TextBox Name="TxtNumero" Watermark="Ej: 101, 205"/>
+
+            <TextBlock Text="Tipo de habitación:"/>
+            <ComboBox Name="CboTipo" HorizontalAlignment="Stretch" PlaceholderText="Selecciona un tipo">
+                <ComboBoxItem>Matrimonial</ComboBoxItem>
+                <ComboBoxItem>Doble</ComboBoxItem>
+                <ComboBoxItem>Individual</ComboBoxItem>
+            </ComboBox>
+
+            <TextBlock Text="Última renovación:"/>
+            <DatePicker Name="DpRenovacion" HorizontalAlignment="Stretch"/>
+
+            <TextBlock Text="Última reserva:"/>
+            <DatePicker Name="DpReserva" HorizontalAlignment="Stretch"/>
+
+            <TextBlock Text="Comodidades (Selecciona varias con Ctrl):" FontWeight="Bold" Margin="0,10,0,0"/>
+            <ListBox Name="LstComodidades" SelectionMode="Multiple" Height="100">
+                <ListBox.ItemTemplate>
+                    <DataTemplate x:DataType="core:Comodidad">
+                        <StackPanel Orientation="Horizontal" Spacing="5">
+                            <TextBlock Text="{Binding Nombre}" FontWeight="Bold"/>
+                            <TextBlock Text="-" />
+                            <TextBlock Text="{Binding Descripcion}" FontStyle="Italic"/>
+                        </StackPanel>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+
+            <Expander Header="Gestionar Comodidades (Añadir/Eliminar)">
+                <StackPanel Spacing="5">
+                    <TextBlock Text="Nombre:"/>
+                    <TextBox Name="TxtComodidadNombre"/>
+                    <TextBlock Text="Descripción:"/>
+                    <TextBox Name="TxtComodidadDesc"/>
+                    <StackPanel Orientation="Horizontal" Spacing="10">
+                        <Button Name="BtnAddComodidad" Content="Añadir Nueva"/>
+                        <Button Name="BtnDelComodidad" Content="Eliminar Seleccionada" Background="#FFCCCC"/>
+                    </StackPanel>
+                </StackPanel>
+            </Expander>
+
+            <TextBlock Name="TxtError" Foreground="Red" TextWrapping="Wrap" Margin="0,10,0,0"/>
+
+            <StackPanel Orientation="Horizontal" Spacing="10" Margin="0,10,0,0">
+                <Button Name="BtnAdd" Content="Guardar" Background="LightGray"/>
+                <Button Name="BtnNuevo" Content="Nueva / Limpiar"/>
+            </StackPanel>
+        </StackPanel>
+
+        <StackPanel Grid.Column="1" Margin="20" Spacing="10">
+            <TextBlock Text="Habitaciones Registradas" FontSize="20" FontWeight="Bold"/>
+            <ListBox Name="LstHabitaciones" Height="400">
+                <ListBox.ItemTemplate>
+                    <DataTemplate x:DataType="core:Habitacion">
+                        <StackPanel>
+                            <TextBlock Text="{Binding Numero, StringFormat='Habitación {0}'}" FontWeight="Bold"/>
+                            <TextBlock Text="{Binding Tipo}" FontSize="12"/>
+                            <TextBlock Text="{Binding ComodidadesString, StringFormat='Comodidades: {0}'}" FontSize="10" FontStyle="Italic"/>
+                        </StackPanel>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+            <StackPanel Orientation="Horizontal" Spacing="10">
+                <Button Name="BtnEditar" Content="Editar Seleccionada"/>
+                <Button Name="BtnEliminar" Content="Eliminar Seleccionada" Background="#FFCCCC"/>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</UserControl>

@@ -1,0 +1,20 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="TRABAJO_GRUPAL_AVALONIA.View.GraphWindow">
+    <Grid RowDefinitions="Auto, *">
+        <StackPanel Grid.Row="0" Orientation="Horizontal" Spacing="10" Margin="10">
+            <ComboBox Name="GraphTypeCombo" Width="200"/>
+            <ComboBox Name="PeriodCombo" Width="120">
+                 <ComboBoxItem IsSelected="True">Mes a Mes</ComboBoxItem>
+                 <ComboBoxItem>Total</ComboBoxItem>
+            </ComboBox>
+            <ComboBox Name="ParamCombo" Width="150" IsEnabled="False"/>
+            <Button Name="GenerateButton" Content="Generar"/>
+        </StackPanel>
+        
+        <Border Grid.Row="1" Margin="20" BorderBrush="Gray" BorderThickness="1">
+            <!-- Canvas donde dibujaremos los gráficos manualmente -->
+            <Canvas Name="PlotControl" Background="WhiteSmoke" ClipToBounds="True"/>
+        </Border>
+    </Grid>
+</UserControl>

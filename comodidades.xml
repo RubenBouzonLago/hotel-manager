@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfComodidad xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Comodidad>
+    <Nombre>Wifi</Nombre>
+    <Descripcion>Conexión WiFi gratuita de alta velocidad en toda la habitación</Descripcion>
+  </Comodidad>
+    <Nombre>Caja fuerte</Nombre>
+    <Descripcion>Caja de seguridad digital para proteger objetos de valor</Descripcion>
+  </Comodidad>
+  <Comodidad>
+    <Nombre>TV Smart</Nombre>
+    <Descripcion>Televisión inteligente con acceso a plataformas de streaming y canales internacionales</Descripcion>
+  </Comodidad>
+  <Comodidad>
+    <Nombre>Aire acondicionado</Nombre>
+    <Descripcion>Sistema de climatización con control de temperatura individual</Descripcion>
+  </Comodidad>
+  <Comodidad>
+    <Nombre>Kit de bienvenida</Nombre>
+    <Descripcion>Amenidades de cortesía: champú, gel, jabón y productos de higiene personal</Descripcion>
+  </Comodidad>
+  <Comodidad>
+    <Nombre>Terraza</Nombre>
+    <Descripcion>Terraza privada con mobiliario exterior y vistas panorámicas</Descripcion>
+  </Comodidad>
+  <Comodidad>
+    <Nombre>Jacuzzi</Nombre>
+    <Descripcion>Bañera de hidromasaje privada para relajación y bienestar</Descripcion>
+  </Comodidad>
+  <Comodidad>
+    <Nombre>Minibar</Nombre>
+    <Descripcion>Bar refrigerado con selección de bebidas y snacks premium</Descripcion>
+  </Comodidad>
+  <Comodidad>
+    <Nombre>Secador de pelo</Nombre>
+    <Descripcion>Secador profesional de alta potencia disponible en el baño</Descripcion>
+  </Comodidad>
+  <Comodidad>
+    <Nombre>Plancha</Nombre>
+    <Descripcion>Plancha y tabla de planchar para el cuidado de la ropa</Descripcion>
+  </Comodidad>
+  <Comodidad>
+    <Nombre>Servicio de habitaciones</Nombre>
+    <Descripcion>Servicio 24 horas para comidas y bebidas directamente en la habitación</Descripcion>
+  </Comodidad>
+  <Comodidad>
+    <Nombre>Balcón</Nombre>
+    <Descripcion>Balcón privado con mesa y sillas para disfrutar del aire libre</Descripcion>
+  </Comodidad>
+  <Comodidad>
+    <Nombre>Vista al mar</Nombre>
+    <Descripcion>Habitación con vistas directas al océano y acceso visual a la playa</Descripcion>
+  </Comodidad>
+</ArrayOfComodidad>
